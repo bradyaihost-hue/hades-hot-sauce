@@ -117,11 +117,11 @@ function SaucesSection() {
               className="group relative bg-hades-card border border-white/5 rounded-2xl overflow-hidden hover:border-hades-red/20 transition-all duration-500"
             >
               {/* Logo image */}
-              <div className="relative aspect-square md:h-72 md:aspect-auto overflow-hidden">
+              <div className="relative overflow-hidden bg-black/40">
                 <img
                   src={sauce.image}
                   alt={sauce.name}
-                  className="w-full h-full object-contain md:object-cover group-hover:scale-105 transition-transform duration-700"
+                  className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-hades-card via-transparent to-transparent" />
               </div>
@@ -164,7 +164,7 @@ function SaucesSection() {
             <img
               src="/bottles-lineup.jpg"
               alt="Hades Hot Sauce bottle lineup"
-              className="w-full h-64 md:h-96 object-cover"
+              className="w-full h-auto max-h-[500px] object-contain md:object-cover md:h-96"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-hades-black via-transparent to-hades-black/40" />
             <div className="absolute bottom-6 left-6 right-6 md:bottom-8 md:left-8">
@@ -213,7 +213,7 @@ function ProcessSection() {
         <div className="grid md:grid-cols-3 gap-6 md:gap-8">
           {steps.map((step, index) => (
             <div key={step.title} className="group">
-              <div className="relative rounded-xl overflow-hidden mb-5 aspect-[4/3]">
+              <div className="relative rounded-xl overflow-hidden mb-5 aspect-[3/4]">
                 <img
                   src={step.image}
                   alt={step.title}
