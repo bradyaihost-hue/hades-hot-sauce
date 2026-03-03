@@ -41,7 +41,7 @@ function HeroSection() {
 
       <div className="relative z-10 text-center max-w-4xl mx-auto">
         <p className="text-hades-gold/80 font-display tracking-[0.3em] uppercase text-sm md:text-base mb-6 animate-pulse">
-          ☠ Welcome to the Underworld ☠
+          ☠ Homegrown · Handmade · Hoarded ☠
         </p>
 
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
@@ -51,13 +51,13 @@ function HeroSection() {
         </h1>
 
         <p className="text-xl md:text-2xl text-white/60 font-body mb-8 max-w-2xl mx-auto">
-          Abandon all bland food, ye who enter here.
+          For people who use half a bottle of Cholula on a breakfast burrito and think... I could do better.
         </p>
 
         <div className="inline-flex items-center gap-3 border border-hades-red/30 rounded-full px-6 py-3 bg-hades-red/5 backdrop-blur-sm">
           <span className="w-2 h-2 rounded-full bg-hades-red animate-pulse" />
           <span className="font-display text-sm tracking-widest uppercase text-hades-gold">
-            Small batch · Not for sale
+            Not for sale · Not for everyone
           </span>
         </div>
       </div>
@@ -76,9 +76,9 @@ function SaucesSection() {
   const sauces = [
     {
       name: "Hades Original",
-      tagline: "First Circle of Flavor",
+      tagline: "The Everyday One",
       description:
-        "The everyday go-to that started it all. A smooth, tangy habanero blend that brings the heat without burning down the house. Cerberus approved for daily use.",
+        "Habaneros and carrots. That's the base. The carrots give it that golden color and a little sweetness before the heat shows up. Goes on everything. Designed for people who think most hot sauces are just spicy vinegar.",
       image: "/original-logo.jpg",
       bottle: "/bottles-lineup.jpg",
       heat: 3,
@@ -87,9 +87,9 @@ function SaucesSection() {
     },
     {
       name: "Hades Xxxtra Hot",
-      tagline: "Ninth Circle. No Mercy.",
+      tagline: "The Happy Accident",
       description:
-        "For those who've proven themselves in the upper circles. Scotch bonnets and habaneros conspire to deliver a heat that lingers like a guilty conscience. You were warned.",
+        "Sometimes too many bhut orange Copenhagen peppers end up in a batch. That's a ghost pepper variant, for the uninitiated. When that happens, it gets its own label. Not on purpose. Just how it goes.",
       image: "/xxxtra-hot-logo-black.jpg",
       bottle: "/xxxtra-hot-bottle.jpg",
       heat: 5,
@@ -106,7 +106,7 @@ function SaucesSection() {
             The Sauces
           </h2>
           <p className="text-white/50 text-lg max-w-xl mx-auto">
-            Two paths through the underworld. Choose wisely — or don&apos;t.
+            Two sauces. One on purpose, one by accident.
           </p>
         </div>
 
@@ -169,7 +169,7 @@ function SaucesSection() {
             <div className="absolute inset-0 bg-gradient-to-t from-hades-black via-transparent to-hades-black/40" />
             <div className="absolute bottom-6 left-6 right-6 md:bottom-8 md:left-8">
               <p className="font-display text-lg md:text-xl text-hades-gold/80">
-                &ldquo;Every bottle hand-labeled. Every batch a little different. That&apos;s the point.&rdquo;
+                &ldquo;Every bottle hand-labeled. Every batch slightly different. Consistency is for factories.&rdquo;
               </p>
             </div>
           </div>
@@ -183,18 +183,18 @@ function ProcessSection() {
   const steps = [
     {
       image: "/raw-peppers.jpg",
-      title: "The Harvest",
-      description: "It starts with habaneros and scotch bonnets — sourced ripe, fragrant, and ready for transformation.",
+      title: "Grow the Peppers",
+      description: "Habaneros and bhut orange Copenhagen (BOC) ghost peppers, grown from seed in Boston. Yes, personally. It's a whole thing.",
     },
     {
       image: "/pepper-crosssection.jpg",
-      title: "The Alchemy",
-      description: "Every pepper is prepped by hand. Seeds in, seeds out — that's where the magic (and the heat) lives.",
+      title: "Make the Sauce",
+      description: "Peppers get blended with a carrot base — that's the secret to the color and the flavor. Everything by hand, in small batches, in a regular kitchen.",
     },
     {
       image: "/fresh-batch-unlabeled.jpg",
-      title: "The Offering",
-      description: "Small batches, bottled fresh. No factory lines, no preservative shortcuts. Just sauce the way Hades intended.",
+      title: "Bottle It Up",
+      description: "Bottled, hand-labeled, and given away. No warehouse. No fulfillment center. Just a guy with a funnel and some free time.",
     },
   ];
 
@@ -206,7 +206,7 @@ function ProcessSection() {
             The Process
           </h2>
           <p className="text-white/50 text-lg max-w-xl mx-auto">
-            From pepper to bottle, every step is done by hand in small batches. No shortcuts through the underworld.
+            Grow peppers. Make sauce. Give it away. It&apos;s not complicated.
           </p>
         </div>
 
@@ -250,25 +250,24 @@ function HowToGetSection() {
 
         <div className="bg-hades-card border border-white/5 rounded-2xl p-8 md:p-12">
           <p className="text-2xl md:text-3xl font-display text-white/90 mb-6 leading-snug">
-            You can&apos;t buy a ticket to the underworld.
+            There&apos;s no buy button.
             <br />
-            <span className="text-hades-gold">You have to be invited.</span>
+            <span className="text-hades-gold">How to get some: know a guy.</span>
           </p>
 
           <div className="w-16 h-px bg-gradient-to-r from-transparent via-hades-red to-transparent mx-auto mb-6" />
 
           <p className="text-white/50 leading-relaxed mb-8 max-w-lg mx-auto">
-            Hades Hot Sauce isn&apos;t sold anywhere. No store shelves, no online cart, no &ldquo;add to bag.&rdquo;
-            Every bottle is made by hand and given to friends, family, and the occasional
-            <a href="https://www.cloudzero.com" target="_blank" rel="noopener noreferrer" className="text-hades-gold hover:text-hades-orange transition-colors"> CloudZero</a> customer
-            who&apos;s proven themselves worthy.
+            This isn&apos;t a business. It&apos;s a hobby that got out of hand. Every bottle goes to friends, family, or
+            <a href="https://www.cloudzero.com" target="_blank" rel="noopener noreferrer" className="text-hades-gold hover:text-hades-orange transition-colors"> CloudZero</a> customers.
+            That&apos;s the whole distribution strategy.
           </p>
 
           <div className="grid sm:grid-cols-3 gap-4 text-center">
             {[
-              { icon: "🤝", label: "Be a friend" },
+              { icon: "🤝", label: "Know a guy" },
               { icon: "☁️", label: "Be a CloudZero customer" },
-              { icon: "🍀", label: "Be very, very lucky" },
+              { icon: "🤷", label: "Good luck otherwise" },
             ].map((item) => (
               <div
                 key={item.label}
@@ -281,7 +280,7 @@ function HowToGetSection() {
           </div>
 
           <p className="text-white/30 text-sm mt-8 font-display">
-            (Bribery has been known to work in rare cases.)
+            (Seriously though, you can&apos;t buy it. We&apos;ve been asked.)
           </p>
         </div>
       </div>
@@ -301,7 +300,7 @@ function Footer() {
         </div>
 
         <p className="text-white/20 text-xs">
-          © {new Date().getFullYear()} Hades Hot Sauce. All rights reserved. No sauce was harmed in the making of this website.
+          © {new Date().getFullYear()} Hades Hot Sauce. Not a real company. Just a guy with too many peppers.
         </p>
 
         <a
