@@ -117,11 +117,11 @@ function SaucesSection() {
               className="group relative bg-hades-card border border-white/5 rounded-2xl overflow-hidden hover:border-hades-red/20 transition-all duration-500"
             >
               {/* Logo image */}
-              <div className="relative h-64 md:h-72 overflow-hidden">
+              <div className="relative aspect-square md:h-72 md:aspect-auto overflow-hidden">
                 <img
                   src={sauce.image}
                   alt={sauce.name}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  className="w-full h-full object-contain md:object-cover group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-hades-card via-transparent to-transparent" />
               </div>
